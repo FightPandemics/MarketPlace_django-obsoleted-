@@ -35,6 +35,8 @@ Setting Up Your Local Build
   
 * Visit localhost:8000 to see the frontend pages
 
+* Please use Prettier to format your .json and .js code, use Python to format you .py code
+
 
 Type checks
 ^^^^^^^^^^^
