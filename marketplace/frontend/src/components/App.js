@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 
 export default class App extends Component {
-    constructor(props) {
-        super(props);
-    }
+  constructor(props) {
+    super(props);
+  }
 
-    render() {
-        return <h1>testing React 1</h1>
-    }
+  render() {
+    return <h1>testing React 1</h1>;
+  }
 }
 
 const appDiv = document.getElementById("app");
