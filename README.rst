@@ -11,12 +11,6 @@ This is the market place project for DuinGud.com
      :alt: Black code style
 
 
-Settings
---------
-
-Moved to settings_.
-
-.. _settings: http://cookiecutter-django.readthedocs.io/en/latest/settings.html
 
 Basic Commands
 --------------
@@ -24,7 +18,9 @@ Basic Commands
 Setting Up Your Local Build
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* To run it locally, please install Docker_ and Docker-compose_ then run below command
+To run it locally, please install Docker_ and Docker-compose_ then run below command.
+
+Note if you're running on Windows, please run docker and edit code in WSL2 Ubuntu environment.
 
 .. _Docker: https://docs.docker.com/get-docker/
 .. _Docker-compose: https://docs.docker.com/compose/install/
@@ -37,6 +33,12 @@ Setting Up Your Local Build
 
 * Please use Prettier to format your .json and .js code, use Python to format you .py code
 
+Settings
+^^^^^^^^
+
+Moved to cookiecutter-django settings_.
+
+.. _settings: http://cookiecutter-django.readthedocs.io/en/latest/settings.html
 
 Type checks
 ^^^^^^^^^^^
@@ -69,9 +71,6 @@ Live reloading and Sass CSS compilation
 Moved to `Live reloading and SASS compilation`_.
 
 .. _`Live reloading and SASS compilation`: http://cookiecutter-django.readthedocs.io/en/latest/live-reloading-and-sass-compilation.html
-
-
-
 
 
 Deployment
